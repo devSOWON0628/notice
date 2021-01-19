@@ -108,6 +108,7 @@
         	$('#sessionClear').remove();
 	        return;
         }
+        document.getElementById("inner").innerHTML = "";
         let row = "";
         const date = new Date();
         let i = 0;
